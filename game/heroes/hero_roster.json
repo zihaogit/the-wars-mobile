@@ -1,0 +1,46 @@
+{
+  "heroes": [
+    {
+      "id": "ASH",
+      "name": "Asha Emberwake",
+      "title": "The Dawnblade",
+      "role": "Melee vanguard",
+      "portrait": "res://heroes/portraits/asha_emberwake.svg",
+      "description": "A disciplined border captain who turns a narrow opening into a decisive charge.",
+      "ability": "Sunbreak: her next strike burns through the front line.",
+      "cost": 30,
+      "health": 125,
+      "damage": 20,
+      "speed": 3.1,
+      "range": 1.8
+    },
+    {
+      "id": "TORREN",
+      "name": "Torren Stoneward",
+      "title": "The Deepwall",
+      "role": "Armored guardian",
+      "portrait": "res://heroes/portraits/torren_stoneward.svg",
+      "description": "A patient keeper in layered plate, built to hold ground when the lane turns.",
+      "ability": "Standfast: heavy armor and steady blows wear down a charge.",
+      "cost": 35,
+      "health": 185,
+      "damage": 15,
+      "speed": 2.2,
+      "range": 1.9
+    },
+    {
+      "id": "IRI",
+      "name": "Iri Solwind",
+      "title": "The Farshot",
+      "role": "Ranged striker",
+      "portrait": "res://heroes/portraits/iri_solwind.svg",
+      "description": "A patient pathfinder who marks a target before it reaches the walls.",
+      "ability": "Starfall: a precise long-range shot punishes exposed enemies.",
+      "cost": 40,
+      "health": 82,
+      "damage": 23,
+      "speed": 2.8,
+      "range": 6.0
+    }
+  ]
+}

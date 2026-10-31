@@ -1,1 +1,15 @@
-PROJECT_WARS_MOBILE_SHAREHOLDER_PLAN.md
+reference_video_frames/
+docs/
+
+# Godot-generated editor and import data
+.godot/
+**/.godot/
+
+# Local Android export settings may contain signing credentials
+game/export_presets.cfg
+
+# Generated Android packages
+*.apk
+*.aab
+*.keystore
+*.jks
