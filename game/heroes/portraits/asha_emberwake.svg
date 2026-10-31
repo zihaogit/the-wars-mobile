@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#56333a"/>
+      <stop offset=".52" stop-color="#a44d36"/>
+      <stop offset="1" stop-color="#e0a45f"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffe1a0"/>
+      <stop offset=".4" stop-color="#e77a45"/>
+      <stop offset="1" stop-color="#8f3540"/>
+    </linearGradient>
+    <linearGradient id="armor" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#456c70"/>
+      <stop offset=".5" stop-color="#273b46"/>
+      <stop offset="1" stop-color="#17232e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff0b0"/>
+      <stop offset=".48" stop-color="#e8b65f"/>
+      <stop offset="1" stop-color="#a86435"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#ffd88b" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#ffd88b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="#121921"/>
+  <path d="M0 0h512v512H0z" fill="url(#sky)"/>
+  <circle cx="365" cy="158" r="151" fill="url(#glow)"/>
+  <circle cx="365" cy="158" r="92" fill="none" stroke="#ffd98c" stroke-opacity=".48" stroke-width="2"/>
+  <path d="M0 405 112 310l53 25 86-100 106 88 71-62 84 80v171H0z" fill="#29373b" opacity=".72"/>
+  <path d="m35 512 23-78 62-54 59 12 77-46 95 28 44-28 91 47 26 119z" fill="#1c2a32"/>
+  <path d="M130 512q5-93 54-138l38-25 34 31 35-30 47 28q48 47 50 134z" fill="url(#armor)" stroke="#d79c55" stroke-width="5"/>
+  <path d="m160 392 52-41 42 17 26 37-29 44-75-3z" fill="#d7854b" stroke="#f4cb83" stroke-width="5"/>
+  <path d="m346 386 43-33 42 39-22 60-70-1z" fill="#344b53" stroke="#e0b66f" stroke-width="5"/>
+  <path d="m205 429 51-37 52 37-19 83h-68z" fill="#d7a45e"/>
+  <path d="m224 434 32-19 32 19-9 78h-46z" fill="#f3d18c"/>
+  <path d="M177 200q-20-105 70-137 91 6 103 94l-13 107-38 62-124-36z" fill="url(#hair)" stroke="#6b3840" stroke-width="7"/>
+  <path d="M195 174q10-77 66-88 61 6 72 77l-13 62-13 48q-18 29-52 29-47-10-57-57l-7-40z" fill="#d99a70"/>
+  <path d="M190 200q-7-107 69-118 75 4 82 100l-27-36-13-41-26 30-42-22-17 42-19 12z" fill="url(#hair)"/>
+  <path d="m189 174-31 81 20 100 30-47-9-67 13-38zM312 149l42 35 18 105-31 55-4-82-23-42z" fill="#c86043"/>
+  <path d="M205 211q18-17 37-2M272 208q20-16 39-1" fill="none" stroke="#653b3b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M211 223q14 10 27 1m43-2q14 9 26-2" fill="none" stroke="#382d32" stroke-width="6" stroke-linecap="round"/>
+  <path d="M253 225q-9 28-1 35l12 1" fill="none" stroke="#a75e51" stroke-width="5" stroke-linecap="round"/>
+  <path d="M235 274q24 17 49-2" fill="none" stroke="#873f40" stroke-width="6" stroke-linecap="round"/>
+  <path d="m246 303-4 36 21 20 22-25-8-35" fill="#c98462"/>
+  <path d="M199 185q-28 12-41-3l11 47 29 18m143-66q24 4 36-16l-10 54-25 17" fill="#f2bc71" stroke="#ffe0a2" stroke-width="5"/>
+  <path d="m162 393-19 119m226-117 32 117" stroke="#f1ca82" stroke-width="7" opacity=".78"/>
+  <path d="m160 416 25-8m159 5 34 10" stroke="#fff1bc" stroke-width="5"/>
+  <circle cx="256" cy="450" r="14" fill="url(#gold)" stroke="#fff0b0" stroke-width="4"/>
+  <path d="M20 20h472v472H20z" fill="none" stroke="#f3d19a" stroke-opacity=".62" stroke-width="4"/>
+</svg>
